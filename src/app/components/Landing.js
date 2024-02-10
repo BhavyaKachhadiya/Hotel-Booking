@@ -80,7 +80,7 @@ const Landing = () => {
             </div>
             <div className='right '>
                 <div>
-                    <Image className='rounded-se-[3.13rem] hidden lg:block' src={"/landing-page.jpeg"} height={640} width={656} />
+                    <Image className='rounded-se-[3.13rem] hidden lg:block' src={"/landing-page.jpeg"} alt='Home' height={640} width={656} />
 
                 </div>
             </div>
