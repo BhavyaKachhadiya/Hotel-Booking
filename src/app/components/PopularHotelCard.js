@@ -2,7 +2,7 @@ import React from 'react'
 
 const PopularHotelCard = ({img,location,name,price,rate}) => {
   return (
-    <div className="card border-0 rounded-2xl w-[25rem] overflow-hidden h-[30rem] bg-[#FAFAFA]">
+    <div className="card border-0 rounded-2xl md:w-[25rem] w-[21rem] overflow-hidden h-[30rem] bg-[#FAFAFA] mt-10 ">
     <div className='img w-[25rem] h-[20rem] bg-cover ' style={{ backgroundImage: `url('${img}')`, backgroundPosition: 'center' }}>
     </div>
     <div className='px-4'> 
@@ -10,9 +10,9 @@ const PopularHotelCard = ({img,location,name,price,rate}) => {
         <p className='text-[.75rem] mt-[1.5rem] text-[#24AB70]'>{location}</p>
       </div>
       <div className="mid">
-        <p className='text-[1.5rem] mt-[.5rem] font-semibold'>{name}</p>
+        <p className='md:text-[1.5rem] text-[1rem] mt-[.5rem] font-semibold'>{name}</p>
       </div>
-      <div className="bottom mt-[2rem]">
+      <div className="bottom mt-4 md:mt-[2rem]">
         <div className="flex gap-5 justify-start items-center">
           <span>{price}</span>
           <div className='line'>

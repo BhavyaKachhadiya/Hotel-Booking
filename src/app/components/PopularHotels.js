@@ -27,15 +27,15 @@ const PopularHotels = () => {
   ]
   return (
     <div className='mt-[5rem]'>
-      <h2 className='font-semibold text-[2.5rem]'>Our most popular Hotels</h2>
-      <div className='flex justify-between'>
+      <h2 className='font-semibold text-[1.7rem] lg:text-[2.5rem]'>Our most popular Hotels</h2>
+      <div className='lg:flex justify-between'>
 
         <p className='text-[1rem]  text-[#555555]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <button className='bg-[#24AB701A] text-[#24AB70] border rounded-full w-[5rem] h-[2rem]'>View All</button>
+        <button className='bg-[#24AB701A] text-[#24AB70] border rounded-full w-[5rem] h-[2rem] mt-3 lg:mt-0'>View All</button>
       </div>
 
 
-      <div className="main-grid flex gap-5 mt-[3rem]">
+      <div className="main-grid lg:flex flex-row gap-5 lg:gap-5 mt-[3rem]">
       
         {hotels.map((hotel,index)=>{
           return(
