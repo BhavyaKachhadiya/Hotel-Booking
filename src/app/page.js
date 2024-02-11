@@ -2,6 +2,7 @@ import Service from "./components/Service";
 import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
 import ViewsHotels from "./components/PopularHotels";
+import History from "./components/History";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
     <Landing/>
     <ViewsHotels/>
     <Service/>
+    <History/>
     </div>
   )
 }
