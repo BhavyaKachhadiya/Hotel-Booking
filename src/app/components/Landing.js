@@ -49,9 +49,9 @@ const Landing = () => {
         }
     ];
     return (
-        <div className='h-[41rem] relative bg-[#24AB700A] mt-5 grid lg:grid-cols-2 grid-cols-1 rounded-t-[3.13rem] '>
-            <div className='left pl-[4rem] '>
-                <div className='heading mt-[5.5rem]'>
+        <div className='h-[41rem] relative bg-[#24AB700A] mt-12 grid lg:grid-cols-2 grid-cols-1 rounded-t-[3.13rem] '>
+            <div className='left pl-[2rem] '>
+                <div className='heading mt-[4rem]'>
                     <h2 className='font-semibold lg:text-[4rem] text-[2.5rem]'>Find your perfect place to stay</h2>
                 </div>
                 <div className='sub-heading text-[1.25rem] text-[#555555] mt-[1.88rem]'>

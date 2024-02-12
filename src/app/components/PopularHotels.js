@@ -35,7 +35,7 @@ const PopularHotels = () => {
       </div>
 
 
-      <div className="main-grid lg:flex flex-row gap-5 lg:gap-5 mt-[3rem]">
+      <div className="main-grid lg:flex flex-row gap-5 lg:gap-5 mt-[1rem]">
       
         {hotels.map((hotel,index)=>{
           return(
