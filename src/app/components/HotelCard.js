@@ -44,7 +44,7 @@ const HotelCard = ({name,address,des,rating,amenities,contact_info,hotel_image})
     
     return (
         <div>
-            <div className='bg-[#FAFAFA]  h-[20rem] w-[70rem] grid grid-cols-2 mb-[3rem]'>
+            <div className='bg-[#FAFAFA]  lg:h-[20rem] lg:w-[70rem] grid lg:grid-cols-2 grid-cols-1 grid-rows-2 lg:grid-rows-1 mb-[3rem]'>
                 <div className='hotel-img bg-cover text-white' style={{ backgroundImage: `url('${hotel_image}')`, backgroundPosition: 'center' }}>
 
                 </div>

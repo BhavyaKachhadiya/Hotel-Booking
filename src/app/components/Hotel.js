@@ -35,7 +35,13 @@ const Hotel = () => {
     };
 
     return (
-        <div className='flex justify-center flex-col '>
+        
+        <div className='flex justify-center items-center flex-col '>
+            <div className="pagination flex justify-between items-center gap-[2rem] my-10  ">
+                <button className='bg-green-600 w-[5rem] h-[3rem] text-white border-0 rounded-lg' onClick={handlePrevPage} disabled={currentPage === 1}>Previous</button>
+                <span>{currentPage}</span>
+                <button className='bg-green-600 w-[5rem] h-[3rem] text-white border-0 rounded-lg' onClick={handleNextPage} disabled={currentPage === totalPages}>Next</button>
+            </div>
             {hotelData.map(hotel => (
                 <HotelCard
                     key={hotel.id}
@@ -48,7 +54,7 @@ const Hotel = () => {
                     hotel_image={hotel.hotel_image}
                 />
             ))}
-            <div className="pagination flex justify-between items-center">
+            <div className="pagination flex justify-between items-center gap-[2rem]">
                 <button className='bg-green-600 w-[5rem] h-[3rem] text-white border-0 rounded-lg' onClick={handlePrevPage} disabled={currentPage === 1}>Previous</button>
                 <span>{currentPage}</span>
                 <button className='bg-green-600 w-[5rem] h-[3rem] text-white border-0 rounded-lg' onClick={handleNextPage} disabled={currentPage === totalPages}>Next</button>
