@@ -38,6 +38,7 @@ const Hotel = () => {
         <div className='flex justify-center flex-col '>
             {hotelData.map(hotel => (
                 <HotelCard
+                    key={hotel.id}
                     name={hotel.name}
                     address={hotel.address}
                     des={hotel.des}
