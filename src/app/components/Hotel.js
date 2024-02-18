@@ -4,7 +4,7 @@ import HotelCard from './HotelCard';
 
 const Hotel = () => {
     const [hotelData, setHotelData] = useState([]);
-    const [currentPage, setCurrentPage] = useState(2);
+    const [currentPage, setCurrentPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);
 
     useEffect(() => {
