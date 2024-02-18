@@ -42,7 +42,7 @@ const Navbar = () => {
                     ))}
                 </div>
                 <div>
-                    <button className='bg-[#24AB70] hidden md:flex py-[.5rem] px-[1rem] text-white rounded-[2.19rem]'>Login</button>
+                    <a href='/login' className='bg-[#24AB70] hidden md:flex py-[.5rem] px-[1rem] text-white rounded-[2.19rem]'>Login</a>
                 </div>
                 <div className='flex md:hidden w-[3rem] h-[3rem]' >
           {/* Hamburger menu icon */}
@@ -58,6 +58,9 @@ const Navbar = () => {
             <a key={index} href={navItem.link}>{navItem.name}</a>
           ))}
           {/* You can add additional mobile-specific content or styling here */}
+          <div>
+                    <a href='/login' className='bg-[#24AB70]  md:flex py-[.5rem] px-[1rem] text-white rounded-[2.19rem]'>Login</a>
+          </div>
         </div>
       )}
         
