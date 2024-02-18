@@ -31,7 +31,7 @@ const Hotel = () => {
     };
 
     const handlePrevPage = () => {
-        setCurrentPage(prevPage => prevPage - 1);
+        setCurrentPage(currentPage => currentPage - 1);
     };
 
     return (
