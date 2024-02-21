@@ -10,7 +10,6 @@ const Hotel = () => {
 
     useEffect(() => {
         fetchHotels();
-        console.log(currentPage);
     }, [currentPage]);
 
     const fetchHotels = () => {
